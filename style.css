@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.background{
+    position: relative;
+}
+.top{
+    height: 20vh;
+    background-color: #009688;
+}
+
+.bottom{
+    height: 80vh;
+    background-color: #d8dbd5;
+}
+
+.app-container{
+    width: 80vw;
+    height: 75vh;
+    background-color: aliceblue;
+    z-index: 50;
+    position: absolute;
+    right: 10rem;
+    top: 5rem;
+    display: flex;
+    
+
+}
+
+.left-side{
+    background-color: blue;  /* debug */
+    width:35% ;
+}
+.right-side{
+    background-color: violet;  /* debug */
+    flex-grow: 1;
+}
+
+/* lato sinistro */
+
+.user{
+    background-color: #eaeaea;
+    height: 10%;
+    
+}
+
+.notifications{
+    background-color:#8edafc ;
+    height: 12%;
+}
+
+.search{
+    background-color: #e5f4fa;
+    height: 8%;
+}
+
+.user-list{
+    background-color: #ffffff;
+    height: 70%;
+}
+
+/* lato destro */
+.active-user{
+    border-left: 1px solid gray;
+}
+
+.chat{
+    background-color: #e4dcd4;
+    height: 80%;
+
+}
+
+.message{
+    background-color: #f3eeea;
+    height: 10%;
+}
